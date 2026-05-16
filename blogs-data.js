@@ -42,10 +42,11 @@ window.OXXZZYY_BLOGS = [
     `
 },
 {
-  id: "fs26-release-date",
+  slug: "fs26-release-date",
   category: "Updates",
   title: "Farming Simulator 26 Release Date Confirmed",
   excerpt: "FS26 officially releases on May 19, 2026 for Nintendo Switch and mobile.",
+  date: "2026-05-16",
   content: `
     <p>Farming Simulator 26 is officially releasing on May 19, 2026 for Nintendo Switch and mobile devices.</p>
 
