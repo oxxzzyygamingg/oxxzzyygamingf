@@ -40,5 +40,30 @@ window.OXXZZYY_BLOGS = [
       <h2>Best Ideas</h2>
       <p>You can create tier lists, top 10 rankings, prediction polls, comparison posts and community voting blogs.</p>
     `
-  }
+  },
+{
+  id: "fs26-release-date",
+  category: "Updates",
+  title: "Farming Simulator 26 Release Date Confirmed",
+  excerpt: "FS26 officially releases on May 19, 2026 for Nintendo Switch and mobile.",
+  content: `
+    <p>Farming Simulator 26 is officially releasing on May 19, 2026 for Nintendo Switch and mobile devices.</p>
+
+    <h2>New Farming Experience</h2>
+
+    <p>FS26 brings new farming machines, better gameplay systems and fresh environments for players.</p>
+
+    <h2>New Machines & Features</h2>
+
+    <p>The game includes new tractors, harvesters and farming equipment with improved visuals and gameplay.</p>
+
+    <h2>Community Excitement</h2>
+
+    <p>The Farming Simulator community is excited for rankings, fact sheets, gameplay videos and machine comparisons.</p>
+
+    <h2>Final Thoughts</h2>
+
+    <p>Stay connected with Oxxzzyy Gaming for more Farming Simulator 26 updates, rankings and gameplay content.</p>
+  `
+}
 ];
