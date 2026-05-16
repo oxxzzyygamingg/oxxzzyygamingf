@@ -40,7 +40,7 @@ window.OXXZZYY_BLOGS = [
       <h2>Best Ideas</h2>
       <p>You can create tier lists, top 10 rankings, prediction polls, comparison posts and community voting blogs.</p>
     `
-  },
+},
 {
   id: "fs26-release-date",
   category: "Updates",
