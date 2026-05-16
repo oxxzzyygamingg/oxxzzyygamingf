@@ -52,3 +52,21 @@ document.querySelectorAll("[data-youtube-app='channel']").forEach((link)=>{
     setTimeout(()=>{window.location.href=fallbackUrl;},900);
   });
 });
+
+const homeBlogList = document.getElementById("homeBlogList");
+
+if (homeBlogList && window.OXXZZYY_BLOGS) {
+  const latestBlogs = window.OXXZZYY_BLOGS
+    .slice()
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 3);
+
+  homeBlogList.innerHTML = latestBlogs.map(blog => `
+    <article>
+      <span>${blog.category}</span>
+      <h3>${blog.title}</h3>
+      <p>${blog.excerpt}</p>
+      <a class="read-more" href="blog-post.html?post=${blog.slug}">Read Blog →</a>
+    </article>
+  `).join("");
+}
